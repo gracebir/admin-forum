@@ -1,0 +1,17 @@
+<div class="container mb-10">
+    <div class="row">
+        <div class="col-md-6 m-auto">
+            <h4 class="text-center display-4 my-4">Ajouter un text reglementaire</h4>
+            <form action="/addpost" class="form" enctype="multipart/form-data" method="post" >
+                <div class="form-group mb-3">
+                    <input type="text" name="title" id="title" class="form-control">
+                </div>
+                <div class="custom-file mb-3">
+                    <input type="file" name="filename" id="filename" class="custom-file-input">
+                    <label for="file" class="custom-file-label">choose File</label>
+                </div>
+                <input type="submit" value="upload" class="btn btn-primary btn-block">
+            </form>
+        </div>
+    </div>
+</div>
